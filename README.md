@@ -11,8 +11,7 @@ As these different computer architectures define the foundation of computing the
 
 Delivering High-performance computing in today's age requires resilient computer architecture that is highly efficient, optimized, and scalable. Due to the advent of machine learning and artificial intelligence, the demand for compute-intensive tasks has been growing at an enormous pace. As today's diverse set of compute architecture as explained above require companies to make significant investments into hardware, libraries, frameworks, and tools there is an increasing need for reusability across the different architecture. In my undergrad, I made one presentation on the need for ubiquitous computing in the modern era of computing. Intel's One API helps simplify the programming for CPUs and hardware and neural accelerators across architectures to seamlessly exploit parallelism called Data-Parallel C++. The DPC++ enables code reuse across CPUs and GPUs with a single source code. DPC++ also has a mapping within to make use of hardware accelerations across the devices as and when needed.
 Data-Parallel C++ also known as the DPC++ is a high-level language specially designed for highly intensive data-parallel programming and productivity. It reuses C++ and enhances it with its cross-platform compatibility.
-Figure 3: Here is a Sample Code in DCP++
-Source: https://www.intel.com/content/www/us/en/develop/documentation/oneapi-programming-guide/top/oneapi-programming-model/data-parallel-c-dpc.html
+
 Device Selection and Offloading
 The user can select a device and offload the task to hardware such as CPU, GPU, TPU etc can be done by mentioning it in the code. Currently, it is available for both DCP++ and Open MP applications.
 The device can be selected in the host code by explicitly mentioning the device type. We can initialize the device with the following
